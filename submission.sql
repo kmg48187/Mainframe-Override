@@ -27,6 +27,7 @@ select * from emptystack_messages where body ilike '%taxi%';
 select * from emptystack_accounts where username ilike 'your-boss-99';
 -- found the boss's password
 
--- I CANNOT figure out how to find the code I dont know what id I'm looking for
+select * from emptystack_projects where code = 'TAXI';
+-- found the code and entered everything into the node mainframe
 
 
